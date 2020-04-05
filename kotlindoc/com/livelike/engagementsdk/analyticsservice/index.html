@@ -1,0 +1,3734 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.20.0-SNAPSHOT"/>
+<link rel="icon" href="https://willis-pinaud.github.io/orchid-ll/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>AnalyticsService</title>
+
+
+<meta name="description" content="The Android API documentation">
+
+
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.20.0-SNAPSHOT","baseUrl":"https://willis-pinaud.github.io/orchid-ll","environment":"debug","version":"1.0.0"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: Editorial -->
+<!-- Class: com.eden.orchid.editorial.EditorialTheme -->
+
+<!-- PAGE -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: kotlindocInterface, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://willis-pinaud.github.io/orchid-ll","fileName":"com/livelike/engagementsdk/analyticsservice","extension":"html","usePrettyUrl":true,"link":"https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice"},"description":"","title":"AnalyticsService"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+
+    <!-- start:inject meta-components -->
+    
+        
+            
+        
+    
+    <!-- end:inject meta-components -->
+
+
+
+    <!-- start:inject meta-components -->
+    
+    <!-- end:inject meta-components -->
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+</head>
+<body class="is-loading">
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            
+                <header id="header">
+    <a href="https://willis-pinaud.github.io/orchid-ll" class="logo">Android EngagementSDK</a>
+    <ul class="icons">
+    
+    
+        <li>
+            <a href="https://github.com/willis-pinaud/orchid-ll" class="icon fa-github">
+                <span class="label">github</span>
+            </a>
+        </li>
+    
+    
+    </ul>
+</header>
+            
+            
+            
+            
+                <section id="pageContent">
+                    <header class="major"><h2>AnalyticsService</h2></header>
+                    <article>
+                        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="AnalyticsService">
+
+
+  <h1 class="sourcedoc-section section-name">AnalyticsService</h1>
+  
+    <div class="sourcedoc-section section-element" id="553aa357ad490fec27551ed35b6f1d9a2769f33b">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>interface <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice">AnalyticsService</a></code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>The base interface for the analytics. This will log events to any remote analytics provider.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+    <div class="sourcedoc-section section-element" id="7a31f22c637b3543146b2e3e0e9fc593d3ef251c">
+      
+      <h3 class="sourcedoc-section element-name">setEventObserver</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun setEventObserver(eventObserver: (String, JSONObject)-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p><span eventObserver="">Set an analytics event observer </span>. It will intercept analytics events.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eaf1b9910d8d08e3ba85834b0918c9886f37ac8b">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="fcedf0a7379d7922ebcc517c8fcd878db92780a5">
+        <td class="sourcedoc-section section-signature">
+          <code>eventObserver: (String, JSONObject)-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c095b7aa2152e557fa6950c00b0bb259abdc4b0d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="d53f85272422b0c2fcb8391f68f5f8ffd862425e">
+      
+      <h3 class="sourcedoc-section element-name">registerSuperProperty</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun registerSuperProperty(analyticsSuperProperties: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics/analyticssuperproperties">AnalyticsSuperProperties</a>, value: Any?)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="602e6da2444b7c725e8ffdede924132c2be0a45b">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="e6fc68b5cd81b768d1cdefb2dc64ab7fc9b1158f">
+        <td class="sourcedoc-section section-signature">
+          <code>analyticsSuperProperties: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics/analyticssuperproperties">AnalyticsSuperProperties</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="40a09638ccc7bcf0940f36220a9d610abbadf0fa">
+        <td class="sourcedoc-section section-signature">
+          <code>value: Any?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e136334bfb888e8cfdc442d7d7484cbcb335b482">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="a45d39113ee2b58684bfe48665800f4cc6078aeb">
+      
+      <h3 class="sourcedoc-section element-name">registerSuperAndPeopleProperty</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun registerSuperAndPeopleProperty(event: Pair<String, String>&lt;String, String&gt;)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="09705f8c3f55e0242a54cf773ad247258585ad51">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5c8cff0a86d50765e3b836b66dcdf96dc13b5c65">
+        <td class="sourcedoc-section section-signature">
+          <code>event: Pair<String, String>&lt;String, String&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="14e345771e73a604b6e4745bd17d6979215a0ea5">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="a0155965f6a7a589acbf225c3e06e4c4bdc5d583">
+      
+      <h3 class="sourcedoc-section element-name">trackConfiguration</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackConfiguration(internalAppName: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="33672de15aca773550810275da6217d8d268f486">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="87291909f489310616267fb857d0b46cf2ba6abf">
+        <td class="sourcedoc-section section-signature">
+          <code>internalAppName: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="594433238396de66b86d6747e93aeb9dfae8e65f">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="64ac0e80cd132f4fe3bf304490f335dcf2c3df01">
+      
+      <h3 class="sourcedoc-section element-name">trackWidgetInteraction</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackWidgetInteraction(kind: String, id: String, interactionInfo: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0a7b568872c7638ee8e4db7f337fa9a54400cda7">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="853acd7c7044e57ccbd119440a4fa2d80f09e77a">
+        <td class="sourcedoc-section section-signature">
+          <code>kind: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="7ccd75ba0ef50e2e46b89be995a7590642b8c245">
+        <td class="sourcedoc-section section-signature">
+          <code>interactionInfo: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e620974387a5371bcc43edf22575e6c90ec86386">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="cec67cb8e9822d81ab1715be76807971354bb06c">
+      
+      <h3 class="sourcedoc-section element-name">trackSessionStarted</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackSessionStarted()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a87b98f7b9b8f1392e5868e03545eb68e40b3a69">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5d712eee8811969b6eaa0a44338903beb28e84b7">
+      
+      <h3 class="sourcedoc-section element-name">trackMessageSent</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackMessageSent(msgId: String, msg: String, hasExternalImage: Boolean)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="fde1d4e0c0f6855fa63e362199200e19b690a8d5">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="127ecec9eb1021566c2a5900871343458ae9a43d">
+        <td class="sourcedoc-section section-signature">
+          <code>msgId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="09d2e9f2bc7d99f0b94acebae1693f73a6563804">
+        <td class="sourcedoc-section section-signature">
+          <code>msg: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c1b58d6aad06b02b326d7bcb99910d754b597098">
+        <td class="sourcedoc-section section-signature">
+          <code>hasExternalImage: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="82bef7043be09f2b0e29bde7ffaedff99cdcf585">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4a086640d6bff84e19fb10872e787fc8c9ff5ace">
+      
+      <h3 class="sourcedoc-section element-name">trackLastChatStatus</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackLastChatStatus(status: Boolean)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="db9bae512b80cd28bc18998a7cd466cc90e04f49">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="4b3769574a2c123fb2e78f007ed048dd56373584">
+        <td class="sourcedoc-section section-signature">
+          <code>status: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4e3ffcf5fecc6e0fde7aafeea1a15289a0b49eb4">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5b0947c3829744ccf546f776c127db192dcb3297">
+      
+      <h3 class="sourcedoc-section element-name">trackLastWidgetStatus</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackLastWidgetStatus(status: Boolean)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9ed61d654ae35b6a6ffe6233a4d1c40c8f30f790">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="4b3769574a2c123fb2e78f007ed048dd56373584">
+        <td class="sourcedoc-section section-signature">
+          <code>status: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c5dd6d1c4f32ab6e2b6c744ec01ab3939860c121">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="3e4110b859b3fa06fe29cc2604f279746ad68840">
+      
+      <h3 class="sourcedoc-section element-name">trackWidgetReceived</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackWidgetReceived(kind: String, id: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="34a33e3e3e836c1a17920812dfc8b254526cfbd9">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="853acd7c7044e57ccbd119440a4fa2d80f09e77a">
+        <td class="sourcedoc-section section-signature">
+          <code>kind: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="1744e521b9011806107567598695cf8d02184568">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="119bfabd8a47f134a405d7914c0b9c40e468cc71">
+      
+      <h3 class="sourcedoc-section element-name">trackWidgetDisplayed</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackWidgetDisplayed(kind: String, id: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2faca83b7e78708d714808688be7030f34fb10bb">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="853acd7c7044e57ccbd119440a4fa2d80f09e77a">
+        <td class="sourcedoc-section section-signature">
+          <code>kind: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6734e24c337ee8a8ca1778c1a271135cd9046b5c">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="ebac857a47c0f405c970c6664eff6d4f07d50b25">
+      
+      <h3 class="sourcedoc-section element-name">trackWidgetDismiss</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackWidgetDismiss(kind: String, id: String, interactionInfo: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a>, interactable: Boolean?, action: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/dismissaction">DismissAction</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="458428c381670aa74e6d50fd71f1dd92d795f85b">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="853acd7c7044e57ccbd119440a4fa2d80f09e77a">
+        <td class="sourcedoc-section section-signature">
+          <code>kind: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="7ccd75ba0ef50e2e46b89be995a7590642b8c245">
+        <td class="sourcedoc-section section-signature">
+          <code>interactionInfo: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="fb908b4cfbd38220a91b517a546b63260fd78b3c">
+        <td class="sourcedoc-section section-signature">
+          <code>interactable: Boolean?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="f4ff4960e100e28a9c2f136ab79b1ef1c446f84d">
+        <td class="sourcedoc-section section-signature">
+          <code>action: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/dismissaction">DismissAction</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f1870c76b01c702a074f178c560750fd35b9a72a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="84511f411ec8dd03bfeefac485b5dee863efc754">
+      
+      <h3 class="sourcedoc-section element-name">trackInteraction</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackInteraction(kind: String, id: String, interactionType: String, interactionCount: Int)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e71fca1e5f880810fae66fd7ecd2d745d68b09b1">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="853acd7c7044e57ccbd119440a4fa2d80f09e77a">
+        <td class="sourcedoc-section section-signature">
+          <code>kind: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="a87ef28bb579c681e6212969d3ac968b55717792">
+        <td class="sourcedoc-section section-signature">
+          <code>interactionType: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="1b2c709e443e968dc951a0cb2ce33577baf58ba1">
+        <td class="sourcedoc-section section-signature">
+          <code>interactionCount: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ccb0f7d26a8c97f8b85cd4db53a0b496237b7cc5">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="6608a1628772bbe416abf5746d38727fa45846d5">
+      
+      <h3 class="sourcedoc-section element-name">trackOrientationChange</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackOrientationChange(isPortrait: Boolean)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4d8d6583987c7c8754e4042bf786170a85a9500c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="dfcaf032ecc83e8dae1b785ae92e65db7c4e4c88">
+        <td class="sourcedoc-section section-signature">
+          <code>isPortrait: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e9e3fcd10307bc444e9de512dff36494c8a85de7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="0912754c4a8a990c848ab067c05efef35c8780f2">
+      
+      <h3 class="sourcedoc-section element-name">trackSession</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackSession(sessionId: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2d7bc76e509d78eecfe7dc75083656009b340b86">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="5adbae6e6219eb9bf9aaedf866a807bb5972a410">
+        <td class="sourcedoc-section section-signature">
+          <code>sessionId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c9f5694441538b6c3e47c8037ba07dac30c284e1">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="1b6db0ad000c30a7c79abb1ead4cf16c008c2410">
+      
+      <h3 class="sourcedoc-section element-name">trackButtonTap</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackButtonTap(buttonName: String, extra: JsonObject)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3b73cba8af65e68ad04707dada70c907b2b93fb0">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="9167e96bf0f158b6642f8291b49e7a98e7df4ad2">
+        <td class="sourcedoc-section section-signature">
+          <code>buttonName: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="0bdbbe21521fd2b2fe8cf515c4b9c47064777a5a">
+        <td class="sourcedoc-section section-signature">
+          <code>extra: JsonObject</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="66dc24741b8170d7da184bf95abbaa306e42fe0d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="6f78542f7c130785d17d070642e5738d20b1015e">
+      
+      <h3 class="sourcedoc-section element-name">trackUsername</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackUsername(username: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b2819ee5c1964c41ce7fa843d8b7935c20310bf5">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cbf6a7217614dadc5296cd5ac0bd90aa0e457e0c">
+        <td class="sourcedoc-section section-signature">
+          <code>username: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c50d7d8ef4a70ee0baa3627628a0ab9137ff3a97">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="141985fab45e9a5a7f6909c5b3718ac31037e576">
+      
+      <h3 class="sourcedoc-section element-name">trackKeyboardOpen</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackKeyboardOpen(keyboardType: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="501dec8548e365fb368d3871551969af144f2f59">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d68d6002126d6046a819abee2da5a2ae120537da">
+        <td class="sourcedoc-section section-signature">
+          <code>keyboardType: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="66a34724119fccc10fbe07009b47f7e556982c5e">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="1761009a6084e7984d6c4af9a38fc54069bde992">
+      
+      <h3 class="sourcedoc-section element-name">trackKeyboardClose</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackKeyboardClose(keyboardType: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a>, hideMethod: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardhidereason">KeyboardHideReason</a>, chatMessageId: String?)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f5c8f0244a3552d5278fcfe4fbbfc04bf958107a">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d68d6002126d6046a819abee2da5a2ae120537da">
+        <td class="sourcedoc-section section-signature">
+          <code>keyboardType: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="35c8bce6de74ea294cfc82e9838c870e2178a9f8">
+        <td class="sourcedoc-section section-signature">
+          <code>hideMethod: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardhidereason">KeyboardHideReason</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="1b2a7f6535e7c188643211de8577b1474171087f">
+        <td class="sourcedoc-section section-signature">
+          <code>chatMessageId: String?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9e582e7e210b5bbd6df830a3233d09e9e7e13f6f">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="0ad25676fd447b8d452d23000a21bc6453ac0b37">
+      
+      <h3 class="sourcedoc-section element-name">trackFlagButtonPressed</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackFlagButtonPressed()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2d3fef2c6e60815b112917ff880361c12c3405be">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="b12133f1441594354dd94b668b25b43c8ff22687">
+      
+      <h3 class="sourcedoc-section element-name">trackReportingMessage</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackReportingMessage()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6fdcf09f65aa4a395f5a61f28e6dbf074c8689a8">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="6fffa0c2d73d28ddb0e95a128535b4a2e0bf01b5">
+      
+      <h3 class="sourcedoc-section element-name">trackBlockingUser</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackBlockingUser()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d3293d6b1ca6e0af2c59d29757343bcd6a816f31">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="d747fefc05e9dc3adc550aad1969ec9bdba0543f">
+      
+      <h3 class="sourcedoc-section element-name">trackCancelFlagUi</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackCancelFlagUi()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9c19cf89825ef5bbc4677264e847a28d9fbce7fd">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="19434491ea0ef3505a8f197dc90b911cc68ecbeb">
+      
+      <h3 class="sourcedoc-section element-name">trackPointTutorialSeen</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackPointTutorialSeen(completionType: String, secondsSinceStart: Long)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0126e4e14eab2d95d4b3071a89febcd61c344e46">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="bb4cc9b36a641005fdcc94dfd3576b5a8f1e1c3b">
+        <td class="sourcedoc-section section-signature">
+          <code>completionType: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="095a25ca36d308a0886bea551b1047a178e1832f">
+        <td class="sourcedoc-section section-signature">
+          <code>secondsSinceStart: Long</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="620c16c4b89e4e6e6d72a0b1183c1504fd4f17ca">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4e392716445299d45159c7fb263989050b56db65">
+      
+      <h3 class="sourcedoc-section element-name">trackPointThisProgram</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackPointThisProgram(points: Int)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2090dc716e6788982812cb8489a4f0863e0e0bc8">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="855d231e21f9c283ccb7eeda525e847bbdf95927">
+        <td class="sourcedoc-section section-signature">
+          <code>points: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f7b205668ac22ac185fe09468f080698ad6bd954">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="2c7946001a99d37aec1541fa6681dbac2c9a6ba8">
+      
+      <h3 class="sourcedoc-section element-name">trackBadgeCollectedButtonPressed</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackBadgeCollectedButtonPressed(badgeId: String, badgeLevel: Int)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="78bbbea7b31f6c5291f0b5f4d085d9677e88d252">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="157855dced019b32e1bc48557c9fb21034895c75">
+        <td class="sourcedoc-section section-signature">
+          <code>badgeId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e40c2e523f11ed99397aadad7297c45b2430b99a">
+        <td class="sourcedoc-section section-signature">
+          <code>badgeLevel: Int</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="be9950049e31b4bd8c040c37bba03c323ec8cb5a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="14d36bfdfda26664e040a19eea4d18054262d217">
+      
+      <h3 class="sourcedoc-section element-name">trackChatReactionPanelOpen</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackChatReactionPanelOpen(messageId: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="632d3924688e679922235eee714152c5bbf5f9ac">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="731eaab1f9d51663cfe9a38d31eef8ca483fb0b5">
+        <td class="sourcedoc-section section-signature">
+          <code>messageId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ab5cb02c4b94530920ff88a6718a183ea387a7f7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="d5c608bd2ee40d17c2d2cc9edb9da5203c036298">
+      
+      <h3 class="sourcedoc-section element-name">trackChatReactionSelected</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun trackChatReactionSelected(messageId: String, reactionId: String, reactionAction: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5a3e0fa3c6c5a350ef4b6b7ff2c314b231de4eed">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="731eaab1f9d51663cfe9a38d31eef8ca483fb0b5">
+        <td class="sourcedoc-section section-signature">
+          <code>messageId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="d50627668259f040cea4ad884ebd799b43c7aa78">
+        <td class="sourcedoc-section section-signature">
+          <code>reactionId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="080022b67e376c44fb244a6cf0b6eb1cc5b1dc78">
+        <td class="sourcedoc-section section-signature">
+          <code>reactionAction: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="abe116a18c6c4679008145eb203d87cd8e9ff648">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+                    </article>
+                </section>
+            
+        </div>
+        <hr>
+
+        <!-- Page Footer -->
+        <div class="inner">
+    <footer id="footer">
+        <div class="clearfix">
+            
+            
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form data-orchid-search="">
+                <input type="text" name="query" id="query" placeholder="Search"/>
+            </form>
+            <div class="box" id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div class="box" id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <nav id="siteNav" class="menu">
+            <header class="major">
+                <h2>Android EngagementSDK</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    
+    <li>
+        <a class="subheader">API Docs</a>
+    </li>
+    
+
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice">AnalyticsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics/analyticssuperproperties">AnalyticsSuperProperties</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetspecificinfo">AnalyticsWidgetSpecificInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/badge">Badge</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod">BaseEasingMethod</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseout">BounceEaseOut</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseoutinterpolator">BounceEaseOutInterpolator</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatview">ChatView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatviewthemeattributes">ChatViewThemeAttributes</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/cheermeterview">CheerMeterView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/collectbadgewidgetview">CollectBadgeWidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/confirmmessageview">ConfirmMessageView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/dismissaction">DismissAction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/dragging">Dragging</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod/easinglistener">EasingListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/eggtimerclosebuttonview">EggTimerCloseButtonView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk">EngagementSDK</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/epochtime">EpochTime</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/error">Error</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/errordelegate">ErrorDelegate</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/fragmentclicklistener">FragmentClickListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/iengagement">IEngagement</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/idle">Idle</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardhidereason">KeyboardHideReason</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikecallback">LiveLikeCallback</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikechatmessage">LiveLikeChatMessage</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikecontentsession">LiveLikeContentSession</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikeuser">LiveLikeUser</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikeuserapi">LiveLikeUserApi</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity">LiveLikeWidgetEntity</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/loglevel">LogLevel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/messagelistener">MessageListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mixpanelanalytics">MixpanelAnalytics</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mockanalyticsservice">MockAnalyticsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity/option">Option</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnaphelperverbose">PagerSnapHelperVerbose</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnapscrolllistener">PagerSnapScrollListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointview">PointView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointstutorialview">PointsTutorialView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/pollview">PollView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/predictionview">PredictionView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/programgamificationprofile">ProgramGamificationProfile</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/progressionmeterview">ProgressionMeterView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/quizview">QuizView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate">RVPageScrollState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagersnaphelperlistenable">RVPagerSnapHelperListenable</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagerstatelistener">RVPagerStateListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/requesttype">RequestType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result">Result</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/rewardstype">RewardsType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/richcontentedittext">RichContentEditText</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/serverdatavalidationexception">ServerDataValidationException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/settling">Settling</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/singlerunner">SingleRunner</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/spanninglinearlayoutmanager">SpanningLinearLayoutManager</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/specifiedwidgetview">SpecifiedWidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/sticker">Sticker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter">StickerAdapter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionadapter">StickerCollectionAdapter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionviewholder">StickerCollectionViewHolder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerdiffcallback">StickerDiffCallback</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardview">StickerKeyboardView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardviewmodel">StickerKeyboardViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpack">StickerPack</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackrepository">StickerPackRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackresults">StickerPackResults</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter/stickerviewholder">StickerViewHolder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stream">Stream</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/success">Success</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk/timecodegetter">TimecodeGetter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/titleview">TitleView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/verticalspaceitemdecoration">VerticalSpaceItemDecoration</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/viewmodel">ViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/visiblepagestate">VisiblePageState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetcancelreason">WidgetCancelReason</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetcontainerviewmodel">WidgetContainerViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widgetinfos">WidgetInfos</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetinterceptor">WidgetInterceptor</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetlifecycleeventslistener">WidgetLifeCycleEventsListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetstate">WidgetState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgettestview">WidgetTestView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgettype">WidgetType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgetview">WidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Packages</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk">com.livelike.engagementsdk</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics">com.livelike.engagementsdk.analytics</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat">com.livelike.engagementsdk.chat</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatreaction">com.livelike.engagementsdk.chat.chatreaction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data">com.livelike.engagementsdk.chat.data</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data/remote">com.livelike.engagementsdk.chat.data.remote</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core">com.livelike.engagementsdk.core</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/exceptionhelpers">com.livelike.engagementsdk.core.exceptionhelpers</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models">com.livelike.engagementsdk.data.models</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/repository">com.livelike.engagementsdk.data.repository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/domain">com.livelike.engagementsdk.domain</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis">com.livelike.engagementsdk.publicapis</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging">com.livelike.engagementsdk.services.messaging</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies">com.livelike.engagementsdk.services.messaging.proxies</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/pubnub">com.livelike.engagementsdk.services.messaging.pubnub</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network">com.livelike.engagementsdk.services.network</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard">com.livelike.engagementsdk.stickerKeyboard</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils">com.livelike.engagementsdk.utils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators">com.livelike.engagementsdk.utils.animators</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/livelikesharedprefs">com.livelike.engagementsdk.utils.liveLikeSharedPrefs</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget">com.livelike.engagementsdk.widget</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/adapters">com.livelike.engagementsdk.widget.adapters</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/model">com.livelike.engagementsdk.widget.model</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util">com.livelike.engagementsdk.widget.util</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view">com.livelike.engagementsdk.widget.view</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components">com.livelike.engagementsdk.widget.view.components</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/imageslider">com.livelike.engagementsdk.widget.view.components.imageslider</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel">com.livelike.engagementsdk.widget.viewModel</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>AnalyticsService</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#7a31f22c637b3543146b2e3e0e9fc593d3ef251c">abstract fun setEventObserver(eventObserver: (String, JSONObject)-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#d53f85272422b0c2fcb8391f68f5f8ffd862425e">abstract fun registerSuperProperty(analyticsSuperProperties: AnalyticsSuperProperties, value: Any?)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#a45d39113ee2b58684bfe48665800f4cc6078aeb">abstract fun registerSuperAndPeopleProperty(event: Pair&lt;String, String&gt;&lt;String, String&gt;)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#a0155965f6a7a589acbf225c3e06e4c4bdc5d583">abstract fun trackConfiguration(internalAppName: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#64ac0e80cd132f4fe3bf304490f335dcf2c3df01">abstract fun trackWidgetInteraction(kind: String, id: String, interactionInfo: AnalyticsWidgetInteractionInfo)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#cec67cb8e9822d81ab1715be76807971354bb06c">abstract fun trackSessionStarted()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#5d712eee8811969b6eaa0a44338903beb28e84b7">abstract fun trackMessageSent(msgId: String, msg: String, hasExternalImage: Boolean)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#4a086640d6bff84e19fb10872e787fc8c9ff5ace">abstract fun trackLastChatStatus(status: Boolean)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#5b0947c3829744ccf546f776c127db192dcb3297">abstract fun trackLastWidgetStatus(status: Boolean)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#3e4110b859b3fa06fe29cc2604f279746ad68840">abstract fun trackWidgetReceived(kind: String, id: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#119bfabd8a47f134a405d7914c0b9c40e468cc71">abstract fun trackWidgetDisplayed(kind: String, id: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#ebac857a47c0f405c970c6664eff6d4f07d50b25">abstract fun trackWidgetDismiss(kind: String, id: String, interactionInfo: AnalyticsWidgetInteractionInfo, interactable: Boolean?, action: DismissAction)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#84511f411ec8dd03bfeefac485b5dee863efc754">abstract fun trackInteraction(kind: String, id: String, interactionType: String, interactionCount: Int)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#6608a1628772bbe416abf5746d38727fa45846d5">abstract fun trackOrientationChange(isPortrait: Boolean)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#0912754c4a8a990c848ab067c05efef35c8780f2">abstract fun trackSession(sessionId: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#1b6db0ad000c30a7c79abb1ead4cf16c008c2410">abstract fun trackButtonTap(buttonName: String, extra: JsonObject)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#6f78542f7c130785d17d070642e5738d20b1015e">abstract fun trackUsername(username: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#141985fab45e9a5a7f6909c5b3718ac31037e576">abstract fun trackKeyboardOpen(keyboardType: KeyboardType)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#1761009a6084e7984d6c4af9a38fc54069bde992">abstract fun trackKeyboardClose(keyboardType: KeyboardType, hideMethod: KeyboardHideReason, chatMessageId: String?)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#0ad25676fd447b8d452d23000a21bc6453ac0b37">abstract fun trackFlagButtonPressed()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#b12133f1441594354dd94b668b25b43c8ff22687">abstract fun trackReportingMessage()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#6fffa0c2d73d28ddb0e95a128535b4a2e0bf01b5">abstract fun trackBlockingUser()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#d747fefc05e9dc3adc550aad1969ec9bdba0543f">abstract fun trackCancelFlagUi()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#19434491ea0ef3505a8f197dc90b911cc68ecbeb">abstract fun trackPointTutorialSeen(completionType: String, secondsSinceStart: Long)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#4e392716445299d45159c7fb263989050b56db65">abstract fun trackPointThisProgram(points: Int)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#2c7946001a99d37aec1541fa6681dbac2c9a6ba8">abstract fun trackBadgeCollectedButtonPressed(badgeId: String, badgeLevel: Int)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#14d36bfdfda26664e040a19eea4d18054262d217">abstract fun trackChatReactionPanelOpen(messageId: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#d5c608bd2ee40d17c2d2cc9edb9da5203c036298">abstract fun trackChatReactionSelected(messageId: String, reactionId: String, reactionAction: String)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+
+        <!-- Section -->
+        <section>
+            <p class="text-center">
+                Currently 1.0.0. Created with <a href="https://orchid.run">Orchid </a> and <b>Orchid Editorial Theme</b>.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright text-center">&copy; Android EngagementSDK. All rights reserved.<br>Design by <a href="https://html5up.net">HTML5 UP</a></p>
+        </footer>
+
+    </div>
+</div>
+
+</div>
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_util.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_main.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/assets/js/orchidSearch.js"></script>
+<!-- end:inject scripts -->
+
+</body>
+</html>

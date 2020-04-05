@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/iengagement</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikechatmessage</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/errordelegate</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikeuserapi</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikecallback</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/exceptionhelpers</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/serverdatavalidationexception</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetstate</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetcontainerviewmodel</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/viewmodel</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/spanninglinearlayoutmanager</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/singlerunner</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/adapters</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/model</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/imageslider</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointstutorialview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/titleview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/eggtimerclosebuttonview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/confirmmessageview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/progressionmeterview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/quizview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/predictionview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgetview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/pollview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/cheermeterview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgettestview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/collectbadgewidgetview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/specifiedwidgetview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgettype</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatreaction</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data/remote</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatviewthemeattributes</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/richcontentedittext</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/verticalspaceitemdecoration</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod/easinglistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseoutinterpolator</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseout</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/livelikesharedprefs</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/loglevel</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackrepository</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagerstatelistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnaphelperverbose</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardviewmodel</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter/stickerviewholder</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/idle</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/dragging</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/settling</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionadapter</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackresults</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardview</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagersnaphelperlistenable</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionviewholder</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/visiblepagestate</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/fragmentclicklistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnapscrolllistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpack</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/sticker</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerdiffcallback</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/repository</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/rewardstype</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/programgamificationprofile</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/badge</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/domain</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/requesttype</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/error</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/success</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/pubnub</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetlifecycleeventslistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity/option</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetinterceptor</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetcancelreason</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics/analyticssuperproperties</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetspecificinfo</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk/timecodegetter</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardhidereason</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stream</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widgetinfos</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mockanalyticsservice</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikecontentsession</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/messagelistener</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/epochtime</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/dismissaction</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mixpanelanalytics</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikeuser</loc>
+        <lastmod>2020-04-05</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    
+</urlset>

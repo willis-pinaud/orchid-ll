@@ -1,0 +1,2493 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.20.0-SNAPSHOT"/>
+<link rel="icon" href="https://willis-pinaud.github.io/orchid-ll/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>LiveLikeContentSession</title>
+
+
+<meta name="description" content="The Android API documentation">
+
+
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.20.0-SNAPSHOT","baseUrl":"https://willis-pinaud.github.io/orchid-ll","environment":"debug","version":"1.0.0"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: Editorial -->
+<!-- Class: com.eden.orchid.editorial.EditorialTheme -->
+
+<!-- PAGE -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: kotlindocInterface, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://willis-pinaud.github.io/orchid-ll","fileName":"com/livelike/engagementsdk/livelikecontentsession","extension":"html","usePrettyUrl":true,"link":"https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikecontentsession"},"description":"","title":"LiveLikeContentSession"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+
+    <!-- start:inject meta-components -->
+    
+        
+            
+        
+    
+    <!-- end:inject meta-components -->
+
+
+
+    <!-- start:inject meta-components -->
+    
+    <!-- end:inject meta-components -->
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://willis-pinaud.github.io/orchid-ll/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+</head>
+<body class="is-loading">
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            
+                <header id="header">
+    <a href="https://willis-pinaud.github.io/orchid-ll" class="logo">Android EngagementSDK</a>
+    <ul class="icons">
+    
+    
+        <li>
+            <a href="https://github.com/willis-pinaud/orchid-ll" class="icon fa-github">
+                <span class="label">github</span>
+            </a>
+        </li>
+    
+    
+    </ul>
+</header>
+            
+            
+            
+            
+                <section id="pageContent">
+                    <header class="major"><h2>LiveLikeContentSession</h2></header>
+                    <article>
+                        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="LiveLikeContentSession">
+
+
+  <h1 class="sourcedoc-section section-name">LiveLikeContentSession</h1>
+  
+    <div class="sourcedoc-section section-element" id="064a301f6b87dba745ce37c4fb8827af4df4db14">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>interface <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikecontentsession">LiveLikeContentSession</a></code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Represents a Content Session which LiveLike uses to deliver widgets and associate user with the Chat
+component.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="fields">
+
+
+  <p class="sourcedoc-section section-name"><strong>Fields</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="8c68a926e934e358ec774648c1acab94fd16f76d">
+        <td class="sourcedoc-section section-signature">
+          <code>abstract analyticService: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice">AnalyticsService</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>The analytics services</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="41854ef4d0b00c2398dffbe0fcbbf35d4648178a">
+        <td class="sourcedoc-section section-signature">
+          <code>abstract var getActiveChatRoom: ()-&gt;String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>The current active chat room, it is the last entered chat room</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c4f01a197b58e1a623c4b90907b099dbe9d7b8bd">
+        <td class="sourcedoc-section section-signature">
+          <code>abstract var widgetInterceptor: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetinterceptor">WidgetInterceptor</a>?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>Intercepts the widgets and hold them until show() or dismiss() is being called</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+    <div class="sourcedoc-section section-element" id="591b6b48f780f70dac6246832a8e21cf78e3dcbf">
+      
+      <h3 class="sourcedoc-section element-name">pause</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun pause()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Pause the current Chat and widget sessions. This generally happens when ads are presented</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5a4859c3d6624dd7392b014e1595134cbb5e3447">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="772be3ae9a40249e7768ce875e3df29bc065f607">
+      
+      <h3 class="sourcedoc-section element-name">resume</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun resume()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Resume the current Chat and widget sessions. This generally happens when ads are completed</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9b6fa25c0a3c0fbc5486a8fc99d792e6f3f4915e">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="27ab61d88373060122f193608959772d2575aef3">
+      
+      <h3 class="sourcedoc-section element-name">close</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun close()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Closes the current session.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c636ac2d96d7fdbd231155a1e2eb8f8cf6871793">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="0e5e8d12a41b5a8dd8f3e6a6b8e16f1b07bccc52">
+      
+      <h3 class="sourcedoc-section element-name">getPlayheadTime</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun getPlayheadTime(): <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/epochtime">EpochTime</a></code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Return the playheadTime for this session.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0ac1911eb0514e9ac965cb73e43ab54443257540">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="e746894bcb0da4fa5b65dec632c54a168ccc7747">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/epochtime">EpochTime</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="4674e4ec16111e67246a57630a0b0e8a095a610d">
+      
+      <h3 class="sourcedoc-section element-name">contentSessionId</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun contentSessionId(): String</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Return the content Session Id (Program Id) for this session.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d1a4d448f9287a6bc761764c84306ea4be053c50">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3df63b7acb0522da685dad5fe84b81fdd7b25264">
+        <td class="sourcedoc-section section-signature">
+          <code>String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="42a96fd9ead6f4e7242dbea83641d07fd68fd50e">
+      
+      <h3 class="sourcedoc-section element-name">setWidgetContainer</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun setWidgetContainer(widgetView: FrameLayout, widgetViewThemeAttributes: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Set the widget container. Recommended to use widgetView.SetSession(session) instead.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5331cf4663193c93c4bf590ac2e62cfcef35d6e4">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="d807d75a2aa4fa3930e0de2a46131ccb5507282c">
+        <td class="sourcedoc-section section-signature">
+          <code>widgetView: FrameLayout</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="74e86d441ce742189a8266e9640546332e35888c">
+        <td class="sourcedoc-section section-signature">
+          <code>widgetViewThemeAttributes: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e3ac82b51cfa766ddd9cb314fa816ac83c5d0e09">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="8a21bdde4a1604d6b5c2f004c5f53112537438c4">
+      
+      <h3 class="sourcedoc-section element-name">setProfilePicUrl</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun setProfilePicUrl(url: String?)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Set the user profile pic. to be shown in chatting</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="aaf0439bcbf1dacf558e81d6b100896f6c31e94e">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="6458ce8b5bda24299aebe9f1ab7355de832a4f30">
+        <td class="sourcedoc-section section-signature">
+          <code>url: String?</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d501ad05b8b41793fff97e0a828f50d5738eb817">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="77d410bf7691b75cf9f98ed8a34051dd3a61feed">
+      
+      <h3 class="sourcedoc-section element-name">joinChatRoom</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun joinChatRoom(chatRoomId: String, timestamp: Long)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Join a Chat Room, membership will be created for this room</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="34abca86bfa4195dfdd52866aec7dedebc5a509f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="0dfd77d148f9a00e841bf3bd26285772329c4843">
+        <td class="sourcedoc-section section-signature">
+          <code>chatRoomId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c7d401fc3bce895a50bf28b2d458e7e620cc871f">
+        <td class="sourcedoc-section section-signature">
+          <code>timestamp: Long</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4174dee34b31b5643c2b610c3d7eee4a226a6e24">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="60200f7509efc81c4fa427c5ab00779661e08923">
+      
+      <h3 class="sourcedoc-section element-name">leaveChatRoom</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun leaveChatRoom(chatRoomId: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Leave a Chat Room, membership will be cancelled with this room</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b3edb191ae3c456a50962bda6139988c90db7a39">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="0dfd77d148f9a00e841bf3bd26285772329c4843">
+        <td class="sourcedoc-section section-signature">
+          <code>chatRoomId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d2b22493483150c2a92b001caa050d442fb9f63d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="07d764a5b128caa2087bcff610b3419897f29f82">
+      
+      <h3 class="sourcedoc-section element-name">enterChatRoom</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun enterChatRoom(chatRoomId: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Enter a Chat Room, the last entered Chat Room will be the active one</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="21b786346058f7e7c866a2bec0e83935e5e47e2e">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="0dfd77d148f9a00e841bf3bd26285772329c4843">
+        <td class="sourcedoc-section section-signature">
+          <code>chatRoomId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d8eefcf6a7850e83e20b83e97d6bf1e3d96fb1dc">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="f13a1856826f16a9630170fb96e8284cf0e92b2d">
+      
+      <h3 class="sourcedoc-section element-name">exitChatRoom</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun exitChatRoom(chatRoomId: String)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Exit the specified Chat Room</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="fadfa61679d1c61cf828f154f42cbeee441d7f7d">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="0dfd77d148f9a00e841bf3bd26285772329c4843">
+        <td class="sourcedoc-section section-signature">
+          <code>chatRoomId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9517a73861db7bd79cb53e1a996167890c4a55d6">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="77e084541c466bf572cd1b74242b434283ae16e2">
+      
+      <h3 class="sourcedoc-section element-name">exitAllConnectedChatRooms</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun exitAllConnectedChatRooms()</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Exit all the Connected Chat Rooms</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b011f4dc6d114654ecb54ededa0022ec563a1ceb">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="9690ec8ff017dd227baba70d157be0b02bab5e0b">
+      
+      <h3 class="sourcedoc-section element-name">getMessageCount</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun getMessageCount(chatRoomId: String, startTimestamp: Long, callback: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikecallback">LiveLikeCallback</a>&lt;Long&gt;)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Returns the number of messages published on a chatroom since a given time</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="2fcd5b0c83b5ec1d7be753a7c58ce526108c1011">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="0dfd77d148f9a00e841bf3bd26285772329c4843">
+        <td class="sourcedoc-section section-signature">
+          <code>chatRoomId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="fe7fac89f5837865904132e431b3f855f6cc573b">
+        <td class="sourcedoc-section section-signature">
+          <code>startTimestamp: Long</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="a004d1ff0251c4d60dc34c755f6c6914ed1490d6">
+        <td class="sourcedoc-section section-signature">
+          <code>callback: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikecallback">LiveLikeCallback</a>&lt;Long&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d8a6568c4408f6f4327dd49044aab4703b39b3e9">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="ced0468f38f18264427b7ad7f9daf1f244957877">
+      
+      <h3 class="sourcedoc-section element-name">setMessageListener</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun setMessageListener(messageListener: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/messagelistener">MessageListener</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Register a message count listner for the specified Chat Room</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e7cc225765d3cadf6e9fd3119473e48a6a42b195">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="242c46a88ee08a4d4fd787a929dbe70cac5e4048">
+        <td class="sourcedoc-section section-signature">
+          <code>messageListener: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/messagelistener">MessageListener</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9feba0d1d3aee5eec95f3c1d3f423809be97cc0d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="598da2865fb9189dec4d4f23a4cdb1fb8a772839">
+      
+      <h3 class="sourcedoc-section element-name">setWidgetViewThemeAttribute</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>abstract fun setWidgetViewThemeAttribute(widgetViewThemeAttributes: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a>)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>set value of style for widget</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9040096bc9ba49b6cebce93bd767c5170d215046">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="74e86d441ce742189a8266e9640546332e35888c">
+        <td class="sourcedoc-section section-signature">
+          <code>widgetViewThemeAttributes: <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9ea24caf9721d18d1efefcb02da3bd62e7acdcf6">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+                    </article>
+                </section>
+            
+        </div>
+        <hr>
+
+        <!-- Page Footer -->
+        <div class="inner">
+    <footer id="footer">
+        <div class="clearfix">
+            
+            
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form data-orchid-search="">
+                <input type="text" name="query" id="query" placeholder="Search"/>
+            </form>
+            <div class="box" id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div class="box" id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <nav id="siteNav" class="menu">
+            <header class="major">
+                <h2>Android EngagementSDK</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    
+    <li>
+        <a class="subheader">API Docs</a>
+    </li>
+    
+
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticsservice">AnalyticsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics/analyticssuperproperties">AnalyticsSuperProperties</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetinteractioninfo">AnalyticsWidgetInteractionInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analyticswidgetspecificinfo">AnalyticsWidgetSpecificInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/badge">Badge</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod">BaseEasingMethod</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseout">BounceEaseOut</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/bounceeaseoutinterpolator">BounceEaseOutInterpolator</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatview">ChatView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatviewthemeattributes">ChatViewThemeAttributes</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/cheermeterview">CheerMeterView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/collectbadgewidgetview">CollectBadgeWidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/confirmmessageview">ConfirmMessageView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/dismissaction">DismissAction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/dragging">Dragging</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators/baseeasingmethod/easinglistener">EasingListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/eggtimerclosebuttonview">EggTimerCloseButtonView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk">EngagementSDK</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/epochtime">EpochTime</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/error">Error</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/errordelegate">ErrorDelegate</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/fragmentclicklistener">FragmentClickListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/iengagement">IEngagement</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/idle">Idle</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardhidereason">KeyboardHideReason</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/keyboardtype">KeyboardType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikecallback">LiveLikeCallback</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikechatmessage">LiveLikeChatMessage</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikecontentsession">LiveLikeContentSession</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/livelikeuser">LiveLikeUser</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis/livelikeuserapi">LiveLikeUserApi</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity">LiveLikeWidgetEntity</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/loglevel">LogLevel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/messagelistener">MessageListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mixpanelanalytics">MixpanelAnalytics</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/mockanalyticsservice">MockAnalyticsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/livelikewidgetentity/option">Option</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnaphelperverbose">PagerSnapHelperVerbose</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/pagersnapscrolllistener">PagerSnapScrollListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointview">PointView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/pointstutorialview">PointsTutorialView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/pollview">PollView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/predictionview">PredictionView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/programgamificationprofile">ProgramGamificationProfile</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/progressionmeterview">ProgressionMeterView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/quizview">QuizView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate">RVPageScrollState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagersnaphelperlistenable">RVPagerSnapHelperListenable</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagerstatelistener">RVPagerStateListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/requesttype">RequestType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result">Result</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models/rewardstype">RewardsType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/richcontentedittext">RichContentEditText</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/serverdatavalidationexception">ServerDataValidationException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/rvpagescrollstate/settling">Settling</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/singlerunner">SingleRunner</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util/spanninglinearlayoutmanager">SpanningLinearLayoutManager</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/specifiedwidgetview">SpecifiedWidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/sticker">Sticker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter">StickerAdapter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionadapter">StickerCollectionAdapter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickercollectionviewholder">StickerCollectionViewHolder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerdiffcallback">StickerDiffCallback</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardview">StickerKeyboardView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerkeyboardviewmodel">StickerKeyboardViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpack">StickerPack</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackrepository">StickerPackRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickerpackresults">StickerPackResults</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/stickeradapter/stickerviewholder">StickerViewHolder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stream">Stream</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network/result/success">Success</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/engagementsdk/timecodegetter">TimecodeGetter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/titleview">TitleView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/verticalspaceitemdecoration">VerticalSpaceItemDecoration</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/viewmodel">ViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard/visiblepagestate">VisiblePageState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetcancelreason">WidgetCancelReason</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetcontainerviewmodel">WidgetContainerViewModel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widgetinfos">WidgetInfos</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetinterceptor">WidgetInterceptor</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies/widgetlifecycleeventslistener">WidgetLifeCycleEventsListener</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel/widgetstate">WidgetState</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgettestview">WidgetTestView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgettype">WidgetType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/widgetview">WidgetView</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/widgetviewthemeattributes">WidgetViewThemeAttributes</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Packages</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk">com.livelike.engagementsdk</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/analytics">com.livelike.engagementsdk.analytics</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat">com.livelike.engagementsdk.chat</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/chatreaction">com.livelike.engagementsdk.chat.chatreaction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data">com.livelike.engagementsdk.chat.data</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/chat/data/remote">com.livelike.engagementsdk.chat.data.remote</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core">com.livelike.engagementsdk.core</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/core/exceptionhelpers">com.livelike.engagementsdk.core.exceptionhelpers</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/models">com.livelike.engagementsdk.data.models</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/data/repository">com.livelike.engagementsdk.data.repository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/domain">com.livelike.engagementsdk.domain</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/publicapis">com.livelike.engagementsdk.publicapis</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging">com.livelike.engagementsdk.services.messaging</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/proxies">com.livelike.engagementsdk.services.messaging.proxies</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/messaging/pubnub">com.livelike.engagementsdk.services.messaging.pubnub</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/services/network">com.livelike.engagementsdk.services.network</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/stickerkeyboard">com.livelike.engagementsdk.stickerKeyboard</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils">com.livelike.engagementsdk.utils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/animators">com.livelike.engagementsdk.utils.animators</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/utils/livelikesharedprefs">com.livelike.engagementsdk.utils.liveLikeSharedPrefs</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget">com.livelike.engagementsdk.widget</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/adapters">com.livelike.engagementsdk.widget.adapters</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/model">com.livelike.engagementsdk.widget.model</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/util">com.livelike.engagementsdk.widget.util</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view">com.livelike.engagementsdk.widget.view</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components">com.livelike.engagementsdk.widget.view.components</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/view/components/imageslider">com.livelike.engagementsdk.widget.view.components.imageslider</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://willis-pinaud.github.io/orchid-ll/kotlindoc/com/livelike/engagementsdk/widget/viewmodel">com.livelike.engagementsdk.widget.viewModel</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>LiveLikeContentSession</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Fields</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#8c68a926e934e358ec774648c1acab94fd16f76d">abstract analyticService: AnalyticsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#41854ef4d0b00c2398dffbe0fcbbf35d4648178a">abstract var getActiveChatRoom: ()-&gt;String</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#c4f01a197b58e1a623c4b90907b099dbe9d7b8bd">abstract var widgetInterceptor: WidgetInterceptor?</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#591b6b48f780f70dac6246832a8e21cf78e3dcbf">abstract fun pause()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#772be3ae9a40249e7768ce875e3df29bc065f607">abstract fun resume()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#27ab61d88373060122f193608959772d2575aef3">abstract fun close()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#0e5e8d12a41b5a8dd8f3e6a6b8e16f1b07bccc52">abstract fun getPlayheadTime(): EpochTime</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#4674e4ec16111e67246a57630a0b0e8a095a610d">abstract fun contentSessionId(): String</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#42a96fd9ead6f4e7242dbea83641d07fd68fd50e">abstract fun setWidgetContainer(widgetView: FrameLayout, widgetViewThemeAttributes: WidgetViewThemeAttributes)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#8a21bdde4a1604d6b5c2f004c5f53112537438c4">abstract fun setProfilePicUrl(url: String?)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#77d410bf7691b75cf9f98ed8a34051dd3a61feed">abstract fun joinChatRoom(chatRoomId: String, timestamp: Long)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#60200f7509efc81c4fa427c5ab00779661e08923">abstract fun leaveChatRoom(chatRoomId: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#07d764a5b128caa2087bcff610b3419897f29f82">abstract fun enterChatRoom(chatRoomId: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#f13a1856826f16a9630170fb96e8284cf0e92b2d">abstract fun exitChatRoom(chatRoomId: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#77e084541c466bf572cd1b74242b434283ae16e2">abstract fun exitAllConnectedChatRooms()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#9690ec8ff017dd227baba70d157be0b02bab5e0b">abstract fun getMessageCount(chatRoomId: String, startTimestamp: Long, callback: LiveLikeCallback&lt;Long&gt;)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#ced0468f38f18264427b7ad7f9daf1f244957877">abstract fun setMessageListener(messageListener: MessageListener)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#598da2865fb9189dec4d4f23a4cdb1fb8a772839">abstract fun setWidgetViewThemeAttribute(widgetViewThemeAttributes: WidgetViewThemeAttributes)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+
+        <!-- Section -->
+        <section>
+            <p class="text-center">
+                Currently 1.0.0. Created with <a href="https://orchid.run">Orchid </a> and <b>Orchid Editorial Theme</b>.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright text-center">&copy; Android EngagementSDK. All rights reserved.<br>Design by <a href="https://html5up.net">HTML5 UP</a></p>
+        </footer>
+
+    </div>
+</div>
+
+</div>
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_util.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_main.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/Editorial/cb3f371e/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="https://willis-pinaud.github.io/orchid-ll/assets/js/orchidSearch.js"></script>
+<!-- end:inject scripts -->
+
+</body>
+</html>

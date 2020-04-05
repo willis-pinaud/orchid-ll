@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /
+
+
+
+Sitemap: https://willis-pinaud.github.io/orchid-ll/sitemap.xml
+
